@@ -22,6 +22,27 @@
         android:layout_height="wrap_content"
         android:hint="Enter Your Message"
         android:gravity="center"/>
+    
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        
+        <RadioButton
+            android:id="@+id/radiomale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+        
+        
+    </RadioGroup>
 
     <Button
         android:id="@+id/messageButton"
